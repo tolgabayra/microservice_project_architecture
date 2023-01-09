@@ -1,6 +1,8 @@
 const express = require("express");
 const app = express()
 const dotnev = require("dotenv")
+const port = process.env.APP_PORT || 4000
+
 
 dotnev.config()
 
